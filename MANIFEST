@@ -14,6 +14,7 @@ macopt++/rand.h
 macopt++/test_fn.cc
 macopt++/test_fn.h
 macopt++/test_macII.cc
+macopt++/Makefile
 Macopt.pm
 Macopt.pod
 Makefile.PL

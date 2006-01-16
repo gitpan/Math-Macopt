@@ -91,4 +91,5 @@ sub ACQUIRE {
 
 package Math::Macopt;
 
+*VERSION = *Math::Macoptc::VERSION;
 1;

@@ -13,3 +13,14 @@ About "PREL_PL_NONLAZY"
 =======================
 http://www.perl.com/pub/a/2001/03/p5pdigest/THISWEEK-20010312.html
 
+CHANGES
+=======
+0.02
+----
+1) Fixed the VERSION number.
+2) Revised POD documentation. 
+3) Fixed the Makefile.PL and MANIFEST.
+
+0.01
+----
+1) First alpha version of "Math::Macopt"

@@ -1606,6 +1606,7 @@ static swig_cast_info *swig_cast_initial[] = {
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (END) -------- */
 
 static swig_constant_info swig_constants[] = {
+{ SWIG_FLOAT,   (char *) SWIG_prefix "VERSION", 0, (double) 0.02, 0, 0},
 {0,0,0,0,0,0}
 };
 #ifdef __cplusplus

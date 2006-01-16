@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker;
 # ########################################################################
 my $name 		= 'Math::Macopt';
 my $author 		= 'Tom Chau';
-my $version 	= 0.01; 
+my $version		= '0.02';
 
 my $MACOPT_DIR 	= "macopt++";
 
@@ -19,12 +19,12 @@ sub main
 {
 	WriteMakefile(
 		# General
-		NAME 	=> $name,
-		AUTHOR	=> $author,
-		VERSION => $version,
-		dist 	=> {
-			SUFFIX	=> 'gz', 
-			COMPRESS=> 'gzip -f' 
+		NAME 			=> $name,
+		AUTHOR			=> $author,
+		VERSION		 	=> $version,
+		dist 			=> {
+			SUFFIX		=> 'gz', 
+			COMPRESS	=> 'gzip -f' 
 		},
 		clean	=> {
 			FILES	=> "*~"
