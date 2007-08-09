@@ -1,6 +1,6 @@
 # MAKEFILE FOR ansi library.
 
-CXXFLAGS = $(INCDIRS) -ansi -pedantic -O2 -Wall 
+CXXFLAGS = $(INCDIRS) -ansi -pedantic -O2 -Wall -fPIC 
 OBJS = macopt.o nrutil.o r.o
 CC = g++ 
 

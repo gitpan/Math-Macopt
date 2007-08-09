@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker;
 # ########################################################################
 my $name 		= 'Math::Macopt';
 my $author 		= 'Tom Chau';
-my $version		= '0.02';
+my $version		= '0.03';
 
 my $MACOPT_DIR 	= "macopt++";
 
@@ -36,10 +36,12 @@ sub main
 		# Compilation and linking
 		INC 		=> "-I$MACOPT_DIR",
 		CCFLAGS		=> join(' ',
+			"-v", 
 			"-Dlinux", 
 			"-DWL=32", 
 			"-DFORTRANUNDERSCORE",
-			"-DOPTIMIZE ", 
+			"-DOPTIMIZE",
+			"-fPIC", 
 			`perl -MExtUtils::Embed -e ccopts`,
 		),
 		OBJECT 	=> "callperl.o base.o base_wrap.o $MACOPT_DIR/libmacopt.a",

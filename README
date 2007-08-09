@@ -15,6 +15,11 @@ http://www.perl.com/pub/a/2001/03/p5pdigest/THISWEEK-20010312.html
 
 CHANGES
 =======
+0.03
+----
+1) Fixed the VERSION number.
+2) Modified the original "pgapack" to use "-fPIC" compiler flag
+
 0.02
 ----
 1) Fixed the VERSION number.
